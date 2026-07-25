@@ -26,13 +26,14 @@ footer {
 }
 
 header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 150px 1fr;
   align-items: center;
-  justify-content: space-around;
   background-color: var(--nav-box-color);
   padding: 1rem;
   margin-bottom: 1.5rem;
   border-radius: 8px;
+  gap: 2rem;
 }
 
 h1,
